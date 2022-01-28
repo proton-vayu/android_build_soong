@@ -67,6 +67,8 @@ var (
 		"-J-XX:+UseDynamicNumberOfGCThreads",
 		"-J-XX:+TieredCompilation",
 		"-J-XX:TieredStopAtLevel=1",
+		"-J-XX:+TieredCompilation",
+		"-J-XX:TieredStopAtLevel=1",
 	}
 )
 
